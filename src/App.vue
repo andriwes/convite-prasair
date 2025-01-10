@@ -36,7 +36,7 @@ const accept = () => {
 </script>
 <template>
   <div v-if="step === 1" class="container">
-    <h1> Você me daria todas as expansões de The Sims?</h1>
+    <h1> É verdade que você quer me dar todas as expansões de The Sims?</h1>
     <div class="buttons">
       <button class="accept-button" @click="accept">Sim</button>
       <button
@@ -50,7 +50,7 @@ const accept = () => {
   </div>
   <div v-if="step === 2" class="container">
     <h2>Como se você tivesse escolha...</h2>
-    <h3></h3>
+    <h3>Estarei esperando todas elas na minha conta!</h3>
 
   </div>
 </template>
